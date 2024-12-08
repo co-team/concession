@@ -1,0 +1,55 @@
+/* Style général pour la navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar-brand a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-user span {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.logout-button {
+    padding: 5px 10px;
+    background-color: #ff4b4b;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logout-button:hover {
+    background-color: #ff0000;
+}
